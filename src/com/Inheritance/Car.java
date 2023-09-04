@@ -39,7 +39,7 @@ class Car extends Vehicle{
     //NO, because both super() and this() must be first statement inside a constructor. Hence, we cannot use them together.
     public Car(String name, String model,String maxSpeed){
         super(model);
-        this(name,maxSpeed);
+        //this(name,maxSpeed);
         super.color = color;
         super.model = model;
     }
